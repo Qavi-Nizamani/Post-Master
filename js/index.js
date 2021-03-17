@@ -55,7 +55,7 @@ function invokeFetchApi(url, requestType, data) {
       document.getElementById("responseText").innerText = data;
     });
 }
-//Method to get data submitted data
+//Method to get data submitted data//
 function getData(requestType, contentType, url) {
   let data = {};
   //If user selects params option, get all params data in an object
